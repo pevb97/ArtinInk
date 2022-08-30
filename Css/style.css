@@ -1,9 +1,20 @@
 .encabezado{
-    width: 100%;
-    height: 50px;
-    background-color: #0D0D0D;
-}
+    /*width: 100%;*/
+    height: 500px;
+    background-image: url("/Imagenes/Logo\ Artinink.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
 
-.encabezado-logo{
-    filter: invert(100%);
+}
+.encabezado-content{
+    text-align: center;
+    color: black;
+    padding: 200px 100px;
+    filter: 
+    (1);
+}
+.contenido{
+    height: 1000px;
 }
