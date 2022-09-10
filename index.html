@@ -34,9 +34,62 @@
             <section class="nuestrosEstilos">
                 <h1 class="nuestrosEstilos__title">Nuestros Estilos</h1>
                 <div class="nuestrosEstilos__target">
-                    <h2 class="target__tittle">Realismo</h2>
-                    <img src="./Imagenes\Realismo_NuestrosEstilos.png" alt="Imagen de estilo" class="target__imagen">
-                    <p class="target__descripcion">Los tatuajes realistas tratan de plasmar en la piel una imagen de la forma más real posible, como si de un cuadro de pintura se tratase. Los tatuadores tienen que tener la habilidad para hacer que el tatuaje parezca una fotografía. Este estilo es uno de los más tatuados, y se puede hacer a color o en blanco y negro. Para que tenga el máximo nivel de detalle se utilizan agujas finas.</p>
+                    <h2 class="nuestrosEstilos__target__tittle">Realismo</h2>
+                    <img src="./Imagenes\Realismo_NuestrosEstilos.png" alt="Imagen de estilo" class="nuestrosEstilos__target__imagen">
+                    <p class="nuestrosEstilos__target__descripcion">Los tatuajes realistas tratan de plasmar en la piel una imagen de la forma más real posible, como si de un cuadro de pintura se tratase. Los tatuadores tienen que tener la habilidad para hacer que el tatuaje parezca una fotografía. Este estilo es uno de los más tatuados, y se puede hacer a color o en blanco y negro. Para que tenga el máximo nivel de detalle se utilizan agujas finas.</p>
+                </div>
+            </section>
+            <section class="cotizaTuEstilo">
+                <h1 class="cotizaTuEstilo__title">Cotiza tu Tatuaje</h1>
+                <div class="cotizaTuEstilo__target">
+                    <h2 class="cotizaTuEstilo__target__tittle">Informacion de tu tatuaje</h2>
+                    <form action="#" class="cotizaTuEstilo__target__form">
+                        <fieldset class="form__ingresaImagen">
+                            <legend>Ingresa la imagen de tu tatuaje</legend>
+                            <label for="imagenTattoo">
+                                <input type="file" name="imagenTattoo" id="imagenTattoo" accept="image/*">
+                            </label>
+                        </fieldset>
+                        <fieldset class="form__escogeEstilo">
+                            <legend>Escoge tu estilo*</legend>
+                            <div class="escogeEstilo__container">
+                                <h3 class="escogeEstilo_title">Escoge la imagen que mas se parezca a tu estilo de tatuaje</h3>
+                                <div class="escogeEstilo__imagen_container">
+                                    <input type="radio" name="escogeEstilo" id="blackwork" class="escogeEstilo__input" />
+                                    <label for="blackwork" class="">
+                                        <img src="./Imagenes/blackwork-tattoo-300x180.jpg" alt="blackwork" class="escogeEstilo__imagen"/>
+                                        blackwork
+                                    </label>
+                                </div>
+                                
+                                <div class="escogeEstilo__imagen_container">
+                                    <input type="radio" name="escogeEstilo" id="neotradicional" class="escogeEstilo__input" />
+                                    <label for="neotradicional" class="">
+                                        <img src="./Imagenes/tatuaje-neotradicional--300x180.jpg" alt="neotradicional" class="escogeEstilo__imagen"/>
+                                        neotradicional
+                                    </label>
+                                </div>
+    
+                                <div class="escogeEstilo__imagen_container">
+                                    <input type="radio" name="escogeEstilo" id="realismo" class="escogeEstilo__input" />
+                                    <label for="realismo" class="">
+                                        <img src="./Imagenes/tatuaje-realista-300x180.jpg" alt="realismo" class="escogeEstilo__imagen"/>
+                                        realismo
+                                    </label>
+                                </div>
+    
+                                <div class="escogeEstilo__imagen_container">
+                                    <input type="radio" name="escogeEstilo" id="tribal" class="escogeEstilo__input" />
+                                    <label for="tribal" class="">
+                                        <img src="./Imagenes/tribal-300x180.jpg" alt="tribal" class="escogeEstilo__imagen"/>
+                                        tribal
+                                    </label>
+                                </div>
+                            </div>
+                            
+                        </fieldset>
+                    </form>
+
                 </div>
             </section>
         </main>
