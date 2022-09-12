@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./Css/style.css">
     <title>ArtinInk Studio</title>
 </head>
+
 <body>
     <div class="general">
         <header class="header">
@@ -27,16 +29,29 @@
         <main class="contenido">
             <section class="inicio">
                 <img src="./Imagenes\Logo Artinink.jpg" alt="Logo ArtinInk Studio" class="inicio__LogoArtiniInk">
-                <h1 class="inicio__title">ArtinInk Tatto <!--</br>-->Studio</h1>
+                <h1 class="inicio__title">ArtinInk Tatto
+                    <!--</br>-->Studio
+                </h1>
                 <img src="./Imagenes\Imagen_Inicio.png" alt="Imagen Tatuador ArtinInk" class="inicio__imagen">
-                <p class="inicio__descripcion">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p class="inicio__descripcion">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived
+                    not only five centuries, but also the leap into electronic typesetting, remaining essentially
+                    unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem
+                    Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including
+                    versions of Lorem Ipsum.</p>
             </section>
             <section class="nuestrosEstilos">
                 <h1 class="nuestrosEstilos__title">Nuestros Estilos</h1>
                 <div class="nuestrosEstilos__target">
                     <h2 class="nuestrosEstilos__target__tittle">Realismo</h2>
-                    <img src="./Imagenes\Realismo_NuestrosEstilos.png" alt="Imagen de estilo" class="nuestrosEstilos__target__imagen">
-                    <p class="nuestrosEstilos__target__descripcion">Los tatuajes realistas tratan de plasmar en la piel una imagen de la forma más real posible, como si de un cuadro de pintura se tratase. Los tatuadores tienen que tener la habilidad para hacer que el tatuaje parezca una fotografía. Este estilo es uno de los más tatuados, y se puede hacer a color o en blanco y negro. Para que tenga el máximo nivel de detalle se utilizan agujas finas.</p>
+                    <img src="./Imagenes\Realismo_NuestrosEstilos.png" alt="Imagen de estilo"
+                        class="nuestrosEstilos__target__imagen">
+                    <p class="nuestrosEstilos__target__descripcion">Los tatuajes realistas tratan de plasmar en la piel
+                        una imagen de la forma más real posible, como si de un cuadro de pintura se tratase. Los
+                        tatuadores tienen que tener la habilidad para hacer que el tatuaje parezca una fotografía. Este
+                        estilo es uno de los más tatuados, y se puede hacer a color o en blanco y negro. Para que tenga
+                        el máximo nivel de detalle se utilizan agujas finas.</p>
                 </div>
             </section>
             <section class="cotizaTuEstilo">
@@ -46,57 +61,81 @@
                     <form action="#" class="cotizaTuEstilo__target__form">
                         <fieldset class="form__ingresaImagen">
                             <legend>Ingresa la imagen de tu tatuaje</legend>
-                            <label for="imagenTattoo">
+                            <label for="imagenTattoo" class="form__ingresaImagen_label">
                                 <input type="file" name="imagenTattoo" id="imagenTattoo" accept="image/*">
                             </label>
                         </fieldset>
                         <fieldset class="form__escogeEstilo">
                             <legend>Escoge tu estilo*</legend>
                             <div class="escogeEstilo__container">
-                                <h3 class="escogeEstilo_title">Escoge la imagen que mas se parezca a tu estilo de tatuaje</h3>
-                                <div class="escogeEstilo__imagen_container">
-                                    <input type="radio" name="escogeEstilo" id="blackwork" class="escogeEstilo__input" />
-                                    <label for="blackwork" class="">
-                                        <img src="./Imagenes/blackwork-tattoo-300x180.jpg" alt="blackwork" class="escogeEstilo__imagen"/>
-                                        blackwork
-                                    </label>
-                                </div>
-                                
-                                <div class="escogeEstilo__imagen_container">
-                                    <input type="radio" name="escogeEstilo" id="neotradicional" class="escogeEstilo__input" />
-                                    <label for="neotradicional" class="">
-                                        <img src="./Imagenes/tatuaje-neotradicional--300x180.jpg" alt="neotradicional" class="escogeEstilo__imagen"/>
-                                        neotradicional
-                                    </label>
-                                </div>
-    
-                                <div class="escogeEstilo__imagen_container">
-                                    <input type="radio" name="escogeEstilo" id="realismo" class="escogeEstilo__input" />
-                                    <label for="realismo" class="">
-                                        <img src="./Imagenes/tatuaje-realista-300x180.jpg" alt="realismo" class="escogeEstilo__imagen"/>
-                                        realismo
-                                    </label>
-                                </div>
-    
-                                <div class="escogeEstilo__imagen_container">
-                                    <input type="radio" name="escogeEstilo" id="tribal" class="escogeEstilo__input" />
-                                    <label for="tribal" class="">
-                                        <img src="./Imagenes/tribal-300x180.jpg" alt="tribal" class="escogeEstilo__imagen"/>
-                                        tribal
-                                    </label>
+                                <h3 class="escogeEstilo_title">Escoge la imagen que mas se parezca a tu estilo de
+                                    tatuaje</h3>
+                                <div class="escogeEstilo__imagenes_container">
+                                    <div class="escogeEstilo__imagen_box">
+                                        <input type="radio" name="escogeEstilo" id="blackwork"
+                                            class="escogeEstilo__input" />
+                                        <label for="blackwork" class="escogeEstilo__label">
+                                            blackwork
+                                            <img src="./Imagenes/blackwork-tattoo-300x180.jpg" alt="blackwork"
+                                                class="escogeEstilo__imagen" />
+
+                                        </label>
+                                    </div>
+
+                                    <div class="escogeEstilo__imagen_box">
+                                        <input type="radio" name="escogeEstilo" id="neotradicional"
+                                            class="escogeEstilo__input" />
+                                        <label for="neotradicional" class="escogeEstilo__label">
+                                            neotradicional
+                                            <img src="./Imagenes/tatuaje-neotradicional--300x180.jpg"
+                                                alt="neotradicional" class="escogeEstilo__imagen" />
+
+                                        </label>
+                                    </div>
+
+                                    <div class="escogeEstilo__imagen_box">
+                                        <input type="radio" name="escogeEstilo" id="realismo"
+                                            class="escogeEstilo__input" />
+                                        <label for="realismo" class="escogeEstilo__label">
+                                            realismo
+                                            <img src="./Imagenes/tatuaje-realista-300x180.jpg" alt="realismo"
+                                                class="escogeEstilo__imagen" />
+
+                                        </label>
+                                    </div>
+
+                                    <div class="escogeEstilo__imagen_box">
+                                        <input type="radio" name="escogeEstilo" id="tribal"
+                                            class="escogeEstilo__input" />
+                                        <label for="tribal" class="escogeEstilo__label">
+                                            tribal
+                                            <img src="./Imagenes/tribal-300x180.jpg" alt="tribal"
+                                                class="escogeEstilo__imagen" />
+
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
-                            
                         </fieldset>
                     </form>
-
                 </div>
             </section>
         </main>
         <footer class="piePagina">
-    
+            <h1 class="piePagina__tittle">Contactanos!</h1>
+            <div class="piePagina__container">
+                <a href="https://www.instagram.com/artinink.studio/" class="piePagina__redSocial_box">
+                    <img src="./Imagenes/instagram-logo-24.png" alt="Logo Instagram">
+                    <p>@artinink.studio</p>
+                </a>
+
+                <a href="https://wa.link/982z7z" class="piePagina__redSocial_box">
+                    <img src="./Imagenes/mobile-regular-24.png" alt="Logo Celular">
+                    <p>322 7660365</p>
+                </a>
+            </div>
         </footer>
     </div>
-
 </body>
+
 </html>
