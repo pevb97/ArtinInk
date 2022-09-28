@@ -1,0 +1,44 @@
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 100%;
+	
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    z-index: 0;
+}
+
+.slider__control_before{
+    padding: 10% 0;
+    /*width: 2%;*/
+    text-align: center;
+    /*z-index: 1;
+    position: absolute;*/
+    border: 1px solid red;
+}
+.slider__control_after{
+    /*display: inline-block;*/
+    /*width: 1%;*/
+    padding: 10% 0;
+    text-align: center;
+    float: right;
+    border: 1px solid red;
+}
+
+.slider__image{
+	width: 100%;
+}
+
